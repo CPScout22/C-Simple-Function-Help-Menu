@@ -1,0 +1,34 @@
+#include<iostream>
+
+using namespace std;
+
+
+
+//Function declaration 
+void HelpMenu();
+
+
+int main() {
+
+	
+
+	//Function call 
+	HelpMenu();
+}
+
+
+//Function definition 
+
+void HelpMenu() {
+	char input;
+	cout << "This is the help Menu press L to access a support phone number" << endl;
+	cin >> input;
+
+	if (input == 'L'|| input == 'l')
+		cout << " Customer Service: 1 (800) 463-3339 " << endl;
+	//else if (input == 'l')
+		//cout << "  Customer Service: 1 (800) 463-3339 " << endl;
+	else
+		cout << "Dang bruh wrong key" << endl;
+
+}
